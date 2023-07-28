@@ -1,5 +1,33 @@
 <template>
-  <div></div>
+  <div>
+    <p>
+      Hey there! My name is Dale, and I'm currently on an exciting journey in
+      the world of web development. I can't even express how much I'm enjoying
+      this new path in my life. It's been a fulfilling experience, and I'm
+      grateful for the opportunities to learn and grow in the field. Apart from
+      coding and building websites, I have another passion in life, collecting
+      anything music-related. My shelves are filled with an extensive collection
+      of VHS tapes and DVDs, with a particular love for hardcore punk and
+      alternative music from the '90s. It's a way for me to stay connected to my
+      interests and unwind after a productive day of coding. Before diving into
+      web development, I spent most of my career working as a mechanic, engaging
+      in hands-on work and employing critical thinking to solve complex
+      problems. It was a rewarding profession that taught me valuable skills
+      that I can now apply to my current endeavors. Speaking of which, I
+      recently graduated from Innotech college with a web development diploma,
+      and I'm thrilled about the prospects ahead. Troubleshooting in web
+      development has become my favorite part, as it resonates with the
+      challenges I used to encounter as a mechanic. The satisfaction of finding
+      and fixing bugs is immensely gratifying. In my personal life, I have a
+      lovable feline companion named Sweet Pea, who keeps me company during
+      those late-night coding sessions. And to add a touch of adventure to my
+      journey, I'm excited to share that I'll be moving to Vancouver in
+      September. I can't wait to explore a new city and immerse myself in the
+      vibrant tech community it offers. Overall, life is pretty amazing right
+      now, and I'm eager to see where this passion for web development takes me.
+      Cheers to new experiences and exciting opportunities ahead!
+    </p>
+  </div>
 </template>
 
 <script>
@@ -7,4 +35,18 @@ export default {};
 </script>
 
 <style scoped>
+div {
+  display: grid;
+  justify-items: center;
+  background-color: rgba(155, 153, 153, 0.555);
+  border-radius: 10px;
+  margin-top: 50px;
+}
+p {
+  text-align: center;
+  width: 80%;
+  max-width: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 </style>

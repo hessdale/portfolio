@@ -56,6 +56,10 @@
 export default {};
 </script>
 <style scoped>
+#about_me {
+  justify-self: center;
+}
+
 p {
   text-align: center;
 }
