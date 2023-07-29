@@ -8,17 +8,16 @@
           using Vue.js for an intuitive user interface. Supported by a robust
           backend with MariaDB and Python, Foodie provides a culinary adventure.
         </p>
+        <a href="https://foodie.hessdale.site/#/discover" target="_blank">
+          <img src="../../public/images/www.svg" alt="world wide web icon" />
+        </a>
       </span>
       <span id="links">
-        <a href="https://foodie.hessdale.site/#/discover">
+        <a href="https://foodie.hessdale.site/#/discover" target="_blank">
           <img
             src="../../public/images/Foodie_App.png"
             alt="screenshot of Foodie App"
-            width="300px"
         /></a>
-        <a href="https://foodie.hessdale.site/#/discover">
-          <img src="../../public/images/www.svg" alt="world wide web icon" />
-        </a>
       </span>
     </article>
     <article>
@@ -30,17 +29,16 @@
           printmaking blocks. Explore art in augmented reality using Babylon.js
           technology!
         </p>
+        <a href="https://foodie.hessdale.site/#/discover" target="_blank">
+          <img src="../../public/images/www.svg" alt="world wide web icon" />
+        </a>
       </span>
       <span id="links">
-        <a href="https://printmaking.hessdale.site/#/">
+        <a href="https://printmaking.hessdale.site/#/" target="_blank">
           <img
             src="../../public/images/Printmaking.png"
             alt="screenshot of printmaking website"
-            width="300px"
         /></a>
-        <a href="https://foodie.hessdale.site/#/discover">
-          <img src="../../public/images/www.svg" alt="world wide web icon" />
-        </a>
       </span>
     </article>
     <article>
@@ -52,17 +50,16 @@
           mouthwatering visuals, seamless navigation, and an interactive pizza
           customization experience. Enjoy a virtual pizza feast!
         </p>
+        <a href="https://foodie.hessdale.site/#/discover" target="_blank">
+          <img src="../../public/images/www.svg" alt="world wide web icon" />
+        </a>
       </span>
       <span id="links">
-        <a href="https://sliceofheaven.hessdale.site/">
+        <a href="https://sliceofheaven.hessdale.site/" target="_blank">
           <img
             src="../../public/images/Slice_of_Heaven.png"
             alt="screenshot of Slice of Heaven Fake restaurant site"
-            width="300px"
         /></a>
-        <a href="https://foodie.hessdale.site/#/discover">
-          <img src="../../public/images/www.svg" alt="world wide web icon" />
-        </a>
       </span>
     </article>
   </div>
@@ -79,18 +76,24 @@ div {
 }
 #links {
   justify-items: center;
+  align-items: center;
+}
+img {
+  max-width: 90%;
 }
 #title {
   padding: 15px;
 }
 article {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   background-color: rgba(156, 154, 154, 0.699);
   border-radius: 10px;
   margin-bottom: 20px;
-  padding: 20px;
+  padding: 30px;
   align-items: center;
+  justify-items: center;
+  margin: 15px;
 }
 h2 {
   text-align: center;
@@ -98,9 +101,22 @@ h2 {
 p {
   display: grid;
   text-align: center;
-  max-width: 800px;
   margin-top: 20px;
   margin-bottom: 20px;
   justify-items: center;
+}
+@media only screen and (min-width: 575px) {
+  img {
+    max-width: 300px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  article {
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+  }
+  #title {
+    max-width: 80%;
+  }
 }
 </style>
