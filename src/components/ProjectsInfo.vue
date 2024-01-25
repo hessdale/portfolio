@@ -60,7 +60,8 @@
         <p>
           Welcome to my Discogs Collection App, your gateway to exploring my extensive music collection. With the power
           of the Discogs API, I'm excited to share my passion for music with you. It's a labor of love aimed at creating a
-          user-friendly platform for music enthusiasts like me to browse and discover my ever-growing collection.
+          user-friendly platform for music enthusiasts like me to browse and discover my ever-growing collection. The user
+          is able to browse through all my music and get more info on albums including videos!
         </p>
         <a href="https://music.hessdale.site/" target="_blank">
           <img src="../../public/images/www.svg" alt="world wide web icon" />
@@ -68,8 +69,7 @@
       </span>
       <span id="links">
         <a href="https://music.hessdale.site/" target="_blank">
-          <img src="../../public/images/Music_Collection.png"
-            alt="screenshot of Slice of Heaven Fake restaurant site" /></a>
+          <img src="../../public/images/Music_Collection.png" alt="screenshot of music collection site" /></a>
       </span>
     </article>
   </div>
