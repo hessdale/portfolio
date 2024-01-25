@@ -15,7 +15,7 @@
       </article>
       <div id="profile_pic">
 
-        <img src="/images/3d_computer.jpg" alt="pixel art computer" />
+        <img src="/images/computer.png" alt="pixel art computer" />
 
       </div>
       <article id="details">
@@ -53,10 +53,6 @@ export default {
 };
 </script>
 <style scoped>
-main {
-  background-color: 240, 236, 236, 255;
-}
-
 #about_me {
   justify-self: center;
 }
