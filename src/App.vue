@@ -30,4 +30,8 @@ nav {
     }
   }
 }
+
+body {
+  margin: 0;
+}
 </style>

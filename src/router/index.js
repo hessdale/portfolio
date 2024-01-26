@@ -13,8 +13,7 @@ const routes = [
     component: HomeView,
     meta: [
       {
-        name: 'title',
-        content: 'Home Page'
+        title: 'Home Page'
       },
       {
         name: 'description',
@@ -32,8 +31,7 @@ const routes = [
     component: AboutView,
     meta: [
       {
-        name: 'title',
-        content: 'About Page'
+        title: 'About Page'
       },
       {
         name: 'description',
@@ -51,8 +49,7 @@ const routes = [
     component: ProjectsView,
     meta: [
       {
-        name: 'title',
-        content: 'Projects Page'
+        title: 'Projects Page'
       },
       {
         name: 'description',
